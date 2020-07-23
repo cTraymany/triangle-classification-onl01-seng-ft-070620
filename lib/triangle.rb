@@ -11,7 +11,7 @@ class Triangle
     if side_1 == (side_2 && side_3)
       :equilateral
     elsif side_2 == side_3
-      :scalene
+      :isosceles
     end
   end
   
