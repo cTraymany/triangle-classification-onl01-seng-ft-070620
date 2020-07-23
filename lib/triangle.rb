@@ -8,9 +8,6 @@ class Triangle
   end
   
   class TriangleError < StandardError
-    # def message
-    #   "not a triangle"
-    # end
   end
 
   def kind
