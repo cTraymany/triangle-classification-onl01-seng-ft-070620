@@ -39,10 +39,11 @@ class Triangle
   # end
 
   class TriangleError < StandardError
-    def message
-      "not a triangle"
-    end
+    # def message
+    #   "not a triangle"
+    # end
   end
+  
 end
 
 # if side_1 <=0 || side_2 <=0 || side_3 <=0
