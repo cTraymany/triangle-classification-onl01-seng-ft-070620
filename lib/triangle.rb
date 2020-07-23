@@ -11,14 +11,14 @@ class Triangle
   def kind
     if s1 <= 0 || s2 <= 0 || s2 <= 0
       raise TriangleError
-    end
-    
-    if s1 == s2 && s2 == s3
-      :equilateral
-    elsif s2 == s3 || s1 == s3 || s1 == s2
-      :isosceles
-    elsif s1 != s2 && s2 != s3
-      :scalene
+    else
+      if s1 == s2 && s2 == s3
+        :equilateral
+      elsif s2 == s3 || s1 == s3 || s1 == s2
+        :isosceles
+      elsif s1 != s2 && s2 != s3
+        :scalene
+      end
     end
   end
 
