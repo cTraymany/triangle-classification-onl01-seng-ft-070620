@@ -7,7 +7,6 @@ class Triangle
     @s3 = s3
   end
   
-
   def kind
     if s1 <= 0 || s2 <= 0 || s2 <= 0
       raise TriangleError
